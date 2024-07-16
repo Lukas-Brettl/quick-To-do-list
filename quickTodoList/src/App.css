@@ -1,0 +1,29 @@
+#input{
+  border: none;
+  outline: none;
+  background: transparent;
+  
+}
+
+#span_input{
+  background-color: #2f303d;
+  
+}
+#add_button{
+  background-color: #564fde;
+  transition: box-shadow 0.3s ease;
+}
+
+#add_button:hover{
+  box-shadow: 0 0 7px #4f46e5;
+}
+#task{
+  border: 2px solid #282c34;
+  
+}
+#importance_list{
+  background: #252636;
+  border: 2px solid #808284;
+  margin-top: 290px;
+  
+}
