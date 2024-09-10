@@ -1,0 +1,42 @@
+#input-div{
+
+
+    width: 310px;
+    position: relative
+}
+#input-component{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ccc;
+    transition: all .3s ease;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+#input-component-label{
+    position:absolute;
+    cursor:text;
+    z-index: 2;
+    top: 13px;
+    left:10px;
+    font-size: 12px;
+    font-weight:bold;
+    background-color: #fafafa;
+    padding:0 10px;
+    color:#999;
+    transition: all .3s ease;
+
+}
+
+#input-component:focus + #input-component-label, #input-component:valid + #input-component-label{
+    font-size: 11px;
+    top: -5px;
+}
+
+#input-component:focus + #input-component-label{
+    color: #655EFF;
+}
+#input-component:focus{
+    border-color:#655EFF;
+    outline: 1px solid #655EFF
+}
