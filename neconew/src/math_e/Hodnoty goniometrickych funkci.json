@@ -1,0 +1,131 @@
+{
+    "téma": "Hodnoty goniometrických funkcí",
+    "obsah": {
+      "Teorie": {
+        "popis": "Goniometrické funkce (sinus, cosinus, tangens, kotangens, sekans, kosekans) jsou funkce, které se vztahují k úhlům v pravoúhlém trojúhelníku a na jednotkové kružnici. Hodnoty těchto funkcí jsou důležité pro řešení trigonometrických úloh.",
+        "sinus": "Sinus úhlu θ je poměr délky protilehlé strany k délce přepony v pravoúhlém trojúhelníku.",
+        "cosinus": "Cosinus úhlu θ je poměr délky přilehlé strany k délce přepony v pravoúhlém trojúhelníku.",
+        "tangens": "Tangens úhlu θ je poměr sinusu úhlu θ k cosinu úhlu θ.",
+        "kotangens": "Kotangens úhlu θ je převrácená hodnota tangensu úhlu θ.",
+        "sekans": "Sekans úhlu θ je převrácená hodnota cosinu úhlu θ.",
+        "kosekans": "Kosekans úhlu θ je převrácená hodnota sinusu úhlu θ."
+      },
+      "Příklad k vyzkoušení": {
+        "popis": "Ukázka výpočtu hodnot goniometrických funkcí.",
+        "příklad": "Vypočítej hodnoty sin(30°), cos(30°) a tan(30°).",
+        "řešení": {
+          "sin(30°)": "1/2",
+          "cos(30°)": "√3/2",
+          "tan(30°)": "1/√3 ≈ 0,577"
+        }
+      },
+      "Příklad k vyřešení": {
+        "zadání": "Vypočítej hodnoty sin(45°), cos(45°) a tan(45°).",
+        "nápověda": "Použij trigonometrické hodnoty pro 45°: sin(45°) = cos(45°) = √2/2, tan(45°) = 1.",
+        "očekávané_řešení": {
+          "sin(45°)": "√2/2 ≈ 0,707",
+          "cos(45°)": "√2/2 ≈ 0,707",
+          "tan(45°)": "1"
+        }
+      },
+      "Chyták": {
+        "popis": "Pozor na hodnoty goniometrických funkcí pro úhly větší než 360° nebo záporné úhly.",
+        "příklad": "Jaká je hodnota sin(450°)?",
+        "nápověda": "Převrať úhel do rozsahu 0°-360° a pak vypočítej sin.",
+        "řešení": "450° - 360° = 90°, sin(450°) = sin(90°) = 1"
+      },
+      "Vysvětlení chytáku": {
+        "popis": "Úhly mohou přesáhnout 360°, což znamená, že se vracejí zpět do standardního rozsahu. V tomto případě 450° je ekvivalentní 90° (450° - 360°). Hodnoty funkcí se opakují každých 360°."
+      },
+      "Závěrečné příklady": {
+        "popis": "Vyřeš následující příklady na hodnoty goniometrických funkcí.",
+        "příklady": [
+          {
+            "příklad": "Vypočítej sin(60°).",
+            "řešení": "√3/2 ≈ 0,866"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(60°)?",
+            "řešení": "1/2"
+          },
+          {
+            "příklad": "Jaká je hodnota tan(60°)?",
+            "řešení": "√3 ≈ 1,732"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(120°)?",
+            "řešení": "√3/2 ≈ 0,866"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(120°)?",
+            "řešení": "-1/2"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(π/3)?",
+            "řešení": "√3/2 ≈ 0,866"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(π/3)?",
+            "řešení": "1/2"
+          },
+          {
+            "příklad": "Jaká je hodnota tan(π/4)?",
+            "řešení": "1"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(π/4)?",
+            "řešení": "√2/2 ≈ 0,707"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(225°)?",
+            "řešení": "-√2/2 ≈ -0,707"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(225°)?",
+            "řešení": "-√2/2 ≈ -0,707"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(-45°)?",
+            "řešení": "-√2/2 ≈ -0,707"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(-45°)?",
+            "řešení": "√2/2 ≈ 0,707"
+          },
+          {
+            "příklad": "Jaká je hodnota tan(150°)?",
+            "řešení": "-1/√3 ≈ -0,577"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(150°)?",
+            "řešení": "1/2"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(-30°)?",
+            "řešení": "√3/2 ≈ 0,866"
+          },
+          {
+            "příklad": "Jaká je hodnota sin(-30°)?",
+            "řešení": "-1/2"
+          },
+          {
+            "příklad": "Jaká je hodnota sekans(60°)?",
+            "řešení": "2"
+          },
+          {
+            "příklad": "Jaká je hodnota kosekans(60°)?",
+            "řešení": "2/√3 ≈ 1,154"
+          },
+          {
+            "příklad": "Jaká je hodnota tan(330°)?",
+            "řešení": "-1/√3 ≈ -0,577"
+          },
+          {
+            "příklad": "Jaká je hodnota cos(330°)?",
+            "řešení": "√3/2 ≈ 0,866"
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,10 @@
+
+#login-div{
+    background: #fafafa;
+    margin-top: 1px;
+    width:400px;
+    height: 500px;
+    border-radius: 10px;
+    margin:auto;
+    box-shadow: 0 0 7px rgb(210, 210, 210);
+}

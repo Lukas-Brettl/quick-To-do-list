@@ -1,0 +1,79 @@
+{
+  "téma": "Úhly",
+  "obsah": {
+    "Teorie": {
+      "popis": "Úhel je část roviny vymezená dvěma polopřímkami se společným počátkem. Značí se písmenem nebo řeckým symbolem (např. α, β). Měří se ve stupních, minutách, sekundách nebo v radiánech. Plný úhel je 360° nebo 2π radiánů.",
+      "měření_úhlů": {
+        "stupně": "1° (stupeň) = 60' (minut), 1' (minuta) = 60'' (sekund)",
+        "radiány": "1 radián ≈ 57,3°, π radiánů = 180°"
+      },
+      "převody": {
+        "stupně_na_radiány": "radiány = (stupně * π) / 180",
+        "radiány_na_stupně": "stupně = (radiány * 180) / π"
+      }
+    },
+    "Příklad k vyzkoušení": {
+      "popis": "Ukázka měření a převodů úhlů.",
+      "příklad": "Převeď úhel 120° na radiány.",
+      "řešení": "120° * π / 180 = 2π/3 radiánu ≈ 2,094 radiánu"
+    },
+    "Příklad k vyřešení": {
+      "zadání": "Převeď úhel 2,5 radiánu na stupně.",
+      "nápověda": "Použij vzorec pro převod radiánů na stupně.",
+      "očekávané_řešení": "2,5 * 180 / π ≈ 143,24°"
+    },
+    "Chyták": {
+      "popis": "Uvědom si, že úhel může být větší než 360°.",
+      "příklad": "Jaký je úhel 450° v plném otočení?",
+      "nápověda": "Z úhlu odečti 360°, protože plný úhel je 360°."
+    },
+    "Vysvětlení chytáku": {
+      "popis": "Úhly mohou přesáhnout 360°, což znamená, že udělají více než jedno plné otočení. Pro určení velikosti úhlu v běžném rozsahu 0°-360° odečteme násobky 360°. V případě 450°: 450° - 360° = 90°."
+    },
+    "Závěrečné příklady": {
+      "popis": "Vyřeš následující příklady na převody úhlů a práci s nimi.",
+      "příklady": [
+        {
+          "příklad": "Převeď 315° na radiány.",
+          "řešení": "315° * π / 180 = 7π/4 radiánu ≈ 5,497 radiánu"
+        },
+        {
+          "příklad": "Převeď π/4 radiánu na stupně.",
+          "řešení": "π/4 * 180 / π = 45°"
+        },
+        {
+          "příklad": "Jaký úhel udělá 3,5 radiánu ve stupních?",
+          "řešení": "3,5 * 180 / π ≈ 200,53°"
+        },
+        {
+          "příklad": "Je úhel 720° větší nebo menší než plný úhel? O kolik?",
+          "řešení": "720° je větší než plný úhel (360°). 720° - 360° = 360° (dvě plná otočení)"
+        },
+        {
+          "příklad": "Převeď 450° na radiány.",
+          "řešení": "450° * π / 180 = 5π/2 radiánu ≈ 7,854 radiánu"
+        },
+        {
+          "příklad": "Jaký úhel je doplněk úhlu 45°?",
+          "řešení": "Doplněk úhlu 45° je 90° - 45° = 45°"
+        },
+        {
+          "příklad": "Převeď 2π radiánu na stupně.",
+          "řešení": "2π * 180 / π = 360°"
+        },
+        {
+          "příklad": "Jaký je úhel 1000° v rozsahu 0° - 360°?",
+          "řešení": "1000° - 2*360° = 280°"
+        },
+        {
+          "příklad": "Převeď úhel 60' (minut) na stupně.",
+          "řešení": "60' = 1°"
+        },
+        {
+          "příklad": "Jaký úhel je 1/6 z plného úhlu v radiánech?",
+          "řešení": "1/6 z plného úhlu (2π) = 2π / 6 = π/3 radiánu ≈ 1,047 radiánu"
+        }
+      ]
+    }
+  }
+}
