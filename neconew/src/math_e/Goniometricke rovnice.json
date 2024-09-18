@@ -1,0 +1,101 @@
+{
+    "téma": "Goniometrické rovnice",
+    "obsah": {
+      "Teorie": {
+        "popis": "Goniometrické rovnice jsou rovnice, které obsahují goniometrické funkce (sinus, cosinus, tangens, atd.). Jejich řešení zahrnuje nalezení úhlů, které splňují danou rovnici. Tento typ rovnic může mít více řešení v rámci jednoho intervalu, a často je třeba hledat všechna řešení v daném rozsahu.",
+        "základní_vlastnosti": {
+          "popis": "Při řešení goniometrických rovnic je důležité mít na paměti následující vlastnosti:",
+          "periodičnost": {
+            "popis": "Goniometrické funkce jsou periodické, což znamená, že jejich hodnoty se opakují po určitém intervalu. Například, perioda funkce sinus a cosinus je 2π, a perioda funkce tangens a kotangens je π."
+          },
+          "hlavní_úhly": {
+            "popis": "Pro každou goniometrickou funkci existují specifické úhly, které jsou důležité při řešení rovnic. Například sin(π/2) = 1 a cos(π) = -1."
+          }
+        },
+        "typy_goniometrických_rovnic": {
+          "sinus": {
+            "popis": "Rovnice, které obsahují sinus, například sin(x) = a.",
+            "vztah": "sin(x) = a",
+            "řešení": "Pro vyřešení rovnice sin(x) = a, kde a je mezi -1 a 1, použij inverzní funkci arcsin. Obecně platí: x = arcsin(a) + 2kπ nebo x = π - arcsin(a) + 2kπ, kde k je celé číslo."
+          },
+          "cosinus": {
+            "popis": "Rovnice, které obsahují cosinus, například cos(x) = a.",
+            "vztah": "cos(x) = a",
+            "řešení": "Pro vyřešení rovnice cos(x) = a, kde a je mezi -1 a 1, použij inverzní funkci arccos. Obecně platí: x = arccos(a) + 2kπ nebo x = -arccos(a) + 2kπ, kde k je celé číslo."
+          },
+          "tangens": {
+            "popis": "Rovnice, které obsahují tangens, například tan(x) = a.",
+            "vztah": "tan(x) = a",
+            "řešení": "Pro vyřešení rovnice tan(x) = a, kde a je libovolné reálné číslo, použij inverzní funkci arctan. Obecně platí: x = arctan(a) + kπ, kde k je celé číslo."
+          }
+        },
+        "příklady_různých_rovnic": {
+          "sinus": {
+            "příklad": "Vyřeš rovnici sin(x) = 1/2.",
+            "řešení": "x = π/6 + 2kπ nebo x = 5π/6 + 2kπ, kde k je celé číslo."
+          },
+          "cosinus": {
+            "příklad": "Vyřeš rovnici cos(x) = -√3/2.",
+            "řešení": "x = 5π/6 + 2kπ nebo x = 7π/6 + 2kπ, kde k je celé číslo."
+          },
+          "tangens": {
+            "příklad": "Vyřeš rovnici tan(x) = 1.",
+            "řešení": "x = π/4 + kπ, kde k je celé číslo."
+          }
+        }
+      },
+      "Příklad k vyzkoušení": {
+        "popis": "Použití základních vztahů k vyřešení goniometrické rovnice.",
+        "příklad": "Vyřeš rovnici sin(x) = 0, kde x je v intervalu [0, 2π).",
+        "řešení": "x = 0, π"
+      },
+      "Příklad k vyřešení": {
+        "zadání": "Vyřeš rovnici cos(x) = 0,5 v intervalu [0, 2π).",
+        "nápověda": "Použij inverzní funkci arccos a nezapomeň na periodičnost funkce cosinus.",
+        "očekávané_řešení": {
+          "řešení": "x = π/3, 5π/3"
+        }
+      },
+      "Chyták": {
+        "popis": "Upozornění na specifické případy a záludnosti.",
+        "příklad": "Jaké jsou všechny hodnoty x v intervalu [0, 4π) pro rovnici sin(x) = 0?",
+        "nápověda": "Sinus je nula v úhlech kπ, kde k je celé číslo.",
+        "řešení": "x = 0, π, 2π, 3π"
+      },
+      "Závěrečné příklady": {
+        "popis": "Vyřeš následující příklady na goniometrické rovnice.",
+        "příklady": [
+          {
+            "příklad": "Vyřeš rovnici sin(x) = -√2/2 pro x v intervalu [0, 2π).",
+            "řešení": "x = 7π/4, 5π/4"
+          },
+          {
+            "příklad": "Vyřeš rovnici cos(x) = 1/√2 v intervalu [0, 2π).",
+            "řešení": "x = π/4, 7π/4"
+          },
+          {
+            "příklad": "Vyřeš rovnici tan(x) = √3 pro x v intervalu [0, 2π).",
+            "řešení": "x = π/3, 4π/3"
+          },
+          {
+            "příklad": "Vyřeš rovnici sin(x) = -1/2 v intervalu [0, 2π).",
+            "řešení": "x = 7π/6, 11π/6"
+          },
+          {
+            "příklad": "Vyřeš rovnici cos(x) = -1/2 v intervalu [0, 2π).",
+            "řešení": "x = 2π/3, 4π/3"
+          },
+          {
+            "příklad": "Vyřeš rovnici tan(x) = 0 pro x v intervalu [0, 2π).",
+            "řešení": "x = 0, π"
+          },
+          {
+            "příklad": "Vyřeš rovnici sin(x) = cos(x) pro x v intervalu [0, 2π).",
+            "nápověda": "Použij vztah sin(x) = cos(x), což odpovídá úhlům, kde sin(x) = cos(x).",
+            "řešení": "x = π/4, 5π/4"
+          }
+        ]
+      }
+    }
+  }
+  

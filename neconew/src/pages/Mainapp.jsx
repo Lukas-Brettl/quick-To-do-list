@@ -50,10 +50,10 @@ const goniometrie = {
   ],
   conditions: {
     "Úhel": ["uhel"],
-    "Hodnoty goniometrických funkcích": [],
-    "Grafy goniometrických funkcí": [],
-    "Vztahy mezi goniometrickými funkcemi": [],
-    "Goniometrické rovnice": []
+    "Hodnoty goniometrických funkcích": ["Hodnoty goniometrickych funkcich"],
+    "Grafy goniometrických funkcí": ["Grafy goniometrickych funkci"],
+    "Vztahy mezi goniometrickými funkcemi": ["Vztahy mezi goniometrickymi funkcemi"],
+    "Goniometrické rovnice": ["Goniometricke rovnice"]
   },
 }
 

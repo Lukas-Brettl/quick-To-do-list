@@ -1,0 +1,107 @@
+{
+    "téma": "Vztahy mezi goniometrickými funkcemi",
+    "obsah": {
+      "Teorie": {
+        "popis": "Goniometrické funkce jsou navzájem propojené různými vztahy, které nám umožňují přecházet mezi jednotlivými funkcemi (sinus, cosinus, tangens, kotangens) a využívat je v trigonometrických výpočtech.",
+        "základní_vztahy": {
+          "popis": "Mezi nejdůležitější vztahy mezi goniometrickými funkcemi patří tyto:",
+          "sinus_a_cosinus": {
+            "vztah": "sin²(θ) + cos²(θ) = 1",
+            "popis": "Tento vztah vychází z Pythagorovy věty a platí pro všechny hodnoty úhlu θ. Je to tzv. jednotková kružnice, kde součet druhých mocnin sinusu a cosinu vždy dá 1."
+          },
+          "tangens_a_sinus_cosinus": {
+            "vztah": "tan(θ) = sin(θ) / cos(θ)",
+            "popis": "Tangens je definován jako podíl sinusu a cosinu daného úhlu. Tento vztah je velmi užitečný při přepočítávání mezi tangensem a ostatními funkcemi."
+          },
+          "kotangens_a_sinus_cosinus": {
+            "vztah": "cot(θ) = cos(θ) / sin(θ)",
+            "popis": "Kotangens je převrácená hodnota tangensu a je definován jako poměr cosinu a sinusu daného úhlu."
+          },
+          "sekans_a_cosinus": {
+            "vztah": "sec(θ) = 1 / cos(θ)",
+            "popis": "Sekans je převrácená hodnota cosinu a lze ho vypočítat jako 1 děleno cosinem úhlu θ."
+          },
+          "kosekans_a_sinus": {
+            "vztah": "csc(θ) = 1 / sin(θ)",
+            "popis": "Kosekans je převrácená hodnota sinusu a lze ho vypočítat jako 1 děleno sinem úhlu θ."
+          }
+        },
+        "odvozené_vztahy": {
+          "popis": "Další vztahy lze odvodit z těchto základních rovnic, například:",
+          "1_tangens_na_kotangens": {
+            "vztah": "tan(θ) * cot(θ) = 1",
+            "popis": "Tangens a kotangens jsou navzájem převrácené funkce, takže jejich součin vždy dává 1."
+          },
+          "sinus_cosinus_a_sekans": {
+            "vztah": "sin(θ) = 1 / csc(θ), cos(θ) = 1 / sec(θ)",
+            "popis": "Sinus a cosinus jsou převrácené hodnoty kosekansu a sekansu."
+          },
+          "vztah_kosekans_a_tangens": {
+            "vztah": "csc(θ) = sec(θ) / tan(θ)",
+            "popis": "Tento vztah spojuje kosekans, sekans a tangens, a může se hodit v některých speciálních případech."
+          }
+        }
+      },
+      "Příklad k vyzkoušení": {
+        "popis": "Použití vztahů mezi goniometrickými funkcemi v praxi.",
+        "příklad": "Je-li sin(θ) = 3/5, spočítej hodnotu cos(θ).",
+        "nápověda": "Použij vztah sin²(θ) + cos²(θ) = 1.",
+        "řešení": {
+          "sin²(θ)": "(3/5)² = 9/25",
+          "cos²(θ)": "cos²(θ) = 1 - 9/25 = 16/25",
+          "cos(θ)": "cos(θ) = √(16/25) = 4/5"
+        }
+      },
+      "Příklad k vyřešení": {
+        "zadání": "Je-li cos(θ) = 12/13, vypočítej hodnotu sin(θ) a tan(θ).",
+        "nápověda": "Použij vztahy sin²(θ) + cos²(θ) = 1 a tan(θ) = sin(θ) / cos(θ).",
+        "očekávané_řešení": {
+          "sin²(θ)": "1 - (12/13)² = 1 - 144/169 = 25/169",
+          "sin(θ)": "sin(θ) = √(25/169) = 5/13",
+          "tan(θ)": "tan(θ) = sin(θ) / cos(θ) = (5/13) / (12/13) = 5/12"
+        }
+      },
+      "Chyták": {
+        "popis": "Pozor na situace, kdy je některá z funkcí rovna 0.",
+        "příklad": "Jaká je hodnota cot(90°)?",
+        "nápověda": "Zamysli se nad tím, jaká je hodnota sin(90°) a cos(90°).",
+        "řešení": "cot(90°) = cos(90°) / sin(90°) = 0 / 1 = 0"
+      },
+      "Závěrečné příklady": {
+        "popis": "Vyřeš následující příklady pomocí vztahů mezi goniometrickými funkcemi.",
+        "příklady": [
+          {
+            "příklad": "Vypočítej hodnotu cot(θ), je-li tan(θ) = 2.",
+            "řešení": "cot(θ) = 1 / tan(θ) = 1 / 2"
+          },
+          {
+            "příklad": "Je-li sin(θ) = 1/2, vypočítej hodnotu cos(θ).",
+            "řešení": "sin²(θ) + cos²(θ) = 1, cos²(θ) = 1 - (1/2)² = 3/4, cos(θ) = √(3/4) = √3/2"
+          },
+          {
+            "příklad": "Vypočítej sekans úhlu θ, je-li cos(θ) = 2/3.",
+            "řešení": "sec(θ) = 1 / cos(θ) = 3/2"
+          },
+          {
+            "příklad": "Je-li cos(θ) = 5/13, vypočítej tan(θ).",
+            "nápověda": "Použij vztah tan(θ) = sin(θ) / cos(θ) a vztah sin²(θ) + cos²(θ) = 1.",
+            "řešení": "sin²(θ) = 1 - (5/13)² = 1 - 25/169 = 144/169, sin(θ) = 12/13, tan(θ) = sin(θ) / cos(θ) = (12/13) / (5/13) = 12/5"
+          },
+          {
+            "příklad": "Je-li csc(θ) = 5, vypočítej hodnotu sin(θ).",
+            "řešení": "sin(θ) = 1 / csc(θ) = 1/5"
+          },
+          {
+            "příklad": "Je-li cot(θ) = 3, vypočítej hodnotu tan(θ).",
+            "řešení": "tan(θ) = 1 / cot(θ) = 1/3"
+          },
+          {
+            "příklad": "Vypočítej hodnotu sec(θ), je-li tan(θ) = 4 a sin(θ) = 4/5.",
+            "nápověda": "Použij vztah tan(θ) = sin(θ) / cos(θ) a sec(θ) = 1 / cos(θ).",
+            "řešení": "tan(θ) = sin(θ) / cos(θ) → 4 = (4/5) / cos(θ) → cos(θ) = 1/5, sec(θ) = 1 / cos(θ) = 5"
+          }
+        ]
+      }
+    }
+  }
+  

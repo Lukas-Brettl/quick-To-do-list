@@ -1,0 +1,99 @@
+{
+    "téma": "Grafy goniometrických funkcí",
+    "obsah": {
+      "Teorie": {
+        "popis": "Grafy goniometrických funkcí (sinus, cosinus, tangens, kotangens) ukazují, jak se hodnoty těchto funkcí mění v závislosti na úhlu v radiánech. Grafy jsou periodické a mohou se opakovat, přičemž důležité vlastnosti jsou perioda a amplituda.",
+        "vysvětlení_pojmů": {
+          "perioda": {
+            "popis": "Perioda je délka grafu, po které se začne opakovat. U funkce sinus a cosinus je to vždy 2π (což je jako jedno úplné otočení kolem kruhu, tedy 360°). U tangens a kotangens se graf opakuje rychleji, a to po π (180°)."
+          },
+          "amplituda": {
+            "popis": "Amplituda určuje, jak vysoko a jak nízko graf 'skáče'. U funkce sinus a cosinus je amplituda 1, což znamená, že maximální hodnota grafu je 1 a minimální hodnota je -1. U tangens a kotangens amplituda není, protože graf nemá omezení (jde až do nekonečna a mínus nekonečna)."
+          }
+        },
+        "sinus": {
+          "popis": "Graf sinusové funkce vypadá jako vlna, která se pohybuje mezi hodnotami -1 a 1.",
+          "vlastnosti": {
+            "Perioda": "2π (graf se začne opakovat po 2π)",
+            "Amplituda": "1 (maximum je 1 a minimum je -1)",
+            "Průsečíky s osou x": "nπ (v bodech 0, π, 2π, kde n je celé číslo)",
+            "Maximální hodnota": "1 (v bodě π/2, 5π/2, ...)",
+            "Minimální hodnota": "-1 (v bodě 3π/2, 7π/2, ...)"
+          }
+        },
+        "cosinus": {
+          "popis": "Graf funkce cosinus je také vlnovitý, ale začíná na hodnotě 1 a pak klesá k -1.",
+          "vlastnosti": {
+            "Perioda": "2π (graf se začne opakovat po 2π)",
+            "Amplituda": "1 (maximum je 1 a minimum je -1)",
+            "Průsečíky s osou x": "π/2 + nπ (v bodech π/2, 3π/2, 5π/2...)",
+            "Maximální hodnota": "1 (v bodech 0, 2π, ...)",
+            "Minimální hodnota": "-1 (v bodech π, 3π, ...)"
+          }
+        },
+        "tangens": {
+          "popis": "Graf funkce tangens roste velmi rychle do nekonečna a klesá do mínus nekonečna. Má také místa, kde není definován (asymptoty).",
+          "vlastnosti": {
+            "Perioda": "π (graf se začne opakovat po π)",
+            "Asymptoty": "v bodech π/2 + nπ (tam, kde graf nemá hodnotu, například π/2, 3π/2, ...)",
+            "Průsečíky s osou x": "v bodech nπ (0, π, 2π, ...)"
+          }
+        },
+        "kotangens": {
+          "popis": "Graf funkce kotangens je podobný grafu tangens, ale opačný – klesá do mínus nekonečna a roste do nekonečna. Má také asymptoty.",
+          "vlastnosti": {
+            "Perioda": "π (graf se začne opakovat po π)",
+            "Asymptoty": "v bodech nπ (0, π, 2π, ...)",
+            "Průsečíky s osou x": "v bodech π/2 + nπ (π/2, 3π/2, ...)"
+          }
+        }
+      },
+      "Příklad k vyzkoušení": {
+        "popis": "Ukázka toho, jak vypadají grafy funkcí.",
+        "příklad": "Nakresli grafy funkcí y = sin(x), y = cos(x) a y = tan(x) pro x v rozmezí od -2π do 2π."
+      },
+      "Příklad k vyřešení": {
+        "zadání": "Nakresli graf funkce y = sin(x) + cos(x) pro x v rozmezí od -2π do 2π.",
+        "nápověda": "Funkce y = sin(x) + cos(x) je součtem dvou periodických funkcí, takže výsledný graf bude kombinací těchto dvou vln."
+      },
+      "Chyták": {
+        "popis": "Pozor na místa, kde funkce tangens a kotangens nejsou definovány, například v bodech jejich asymptot.",
+        "příklad": "Jak se chová funkce tangens na intervalu (-π/2, π/2)?",
+        "nápověda": "V těchto bodech má graf asymptoty a funkce není definovaná (v π/2 je například asymptota)."
+      },
+      "Závěrečné příklady": {
+        "popis": "Vyřeš následující příklady na grafy goniometrických funkcí.",
+        "příklady": [
+          {
+            "příklad": "Nakresli graf funkce y = sin(2x) pro x v rozmezí od -2π do 2π.",
+            "nápověda": "Funkce má dvojnásobnou frekvenci, což znamená, že se opakuje dvakrát rychleji než normální sinus."
+          },
+          {
+            "příklad": "Jak se změní graf funkce y = cos(x) při posunutí o π/4 doprava?",
+            "řešení": "Graf se posune o π/4 doprava, takže vrcholy a průsečíky s osou x se posunou vpravo."
+          },
+          {
+            "příklad": "Nakresli graf funkce y = tan(x) pro x v rozmezí od -π do π a vyznač asymptoty.",
+            "nápověda": "Asymptoty jsou v bodech, kde funkce tangens není definovaná – v π/2 a -π/2."
+          },
+          {
+            "příklad": "Jak se změní graf funkce y = sin(x), když ji vynásobíme 2? Nakresli graf funkce y = 2sin(x).",
+            "nápověda": "Amplituda se zdvojnásobí, což znamená, že graf bude sahat od -2 do 2 místo od -1 do 1."
+          },
+          {
+            "příklad": "Nakresli graf funkce y = cos(x) - 1 pro x v rozmezí od -2π do 2π.",
+            "nápověda": "Graf bude celý posunutý o 1 dolů."
+          },
+          {
+            "příklad": "Jak se změní graf funkce y = tan(x), když ho posuneme o π doleva? Nakresli graf funkce y = tan(x + π).",
+            "nápověda": "Graf se posune o π doleva, což znamená, že se všechny asymptoty a průsečíky posunou doleva o π."
+          },
+          {
+            "příklad": "Nakresli graf funkce y = sin(x/2) pro x v rozmezí od -2π do 2π.",
+            "nápověda": "Perioda se zdvojnásobí, což znamená, že se graf bude opakovat pomaleji než normální sinus."
+          }
+        ]
+      }
+    }
+  }
+  
