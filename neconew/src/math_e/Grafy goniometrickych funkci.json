@@ -2,51 +2,48 @@
     "téma": "Grafy goniometrických funkcí",
     "obsah": {
       "Teorie": {
-        "popis": "Grafy goniometrických funkcí (sinus, cosinus, tangens, kotangens) ukazují, jak se hodnoty těchto funkcí mění v závislosti na úhlu v radiánech. Grafy jsou periodické a mohou se opakovat, přičemž důležité vlastnosti jsou perioda a amplituda.",
-        "vysvětlení_pojmů": {
-          "perioda": {
-            "popis": "Perioda je délka grafu, po které se začne opakovat. U funkce sinus a cosinus je to vždy 2π (což je jako jedno úplné otočení kolem kruhu, tedy 360°). U tangens a kotangens se graf opakuje rychleji, a to po π (180°)."
-          },
-          "amplituda": {
-            "popis": "Amplituda určuje, jak vysoko a jak nízko graf 'skáče'. U funkce sinus a cosinus je amplituda 1, což znamená, že maximální hodnota grafu je 1 a minimální hodnota je -1. U tangens a kotangens amplituda není, protože graf nemá omezení (jde až do nekonečna a mínus nekonečna)."
-          }
-        },
-        "sinus": {
-          "popis": "Graf sinusové funkce vypadá jako vlna, která se pohybuje mezi hodnotami -1 a 1.",
-          "vlastnosti": {
-            "Perioda": "2π (graf se začne opakovat po 2π)",
-            "Amplituda": "1 (maximum je 1 a minimum je -1)",
-            "Průsečíky s osou x": "nπ (v bodech 0, π, 2π, kde n je celé číslo)",
-            "Maximální hodnota": "1 (v bodě π/2, 5π/2, ...)",
-            "Minimální hodnota": "-1 (v bodě 3π/2, 7π/2, ...)"
-          }
+        "popis": ["popis", "Grafy goniometrických funkcí (sinus, cosinus, tangens, kotangens) ukazují, jak se hodnoty těchto funkcí mění v závislosti na úhlu v radiánech. Grafy jsou periodické a mohou se opakovat, přičemž důležité vlastnosti jsou perioda a amplituda."],
+        "vysvětlení_pojmů":["cap2"],
+        "perioda": ["cap3", "Perioda je délka grafu, po které se začne opakovat. U funkce sinus a cosinus je to vždy 2π (což je jako jedno úplné otočení kolem kruhu, tedy 360°). U tangens a kotangens se graf opakuje rychleji, a to po π (180°)."],
+        "amplituda": ["cap3", "Amplituda určuje, jak vysoko a jak nízko graf 'skáče'. U funkce sinus a cosinus je amplituda 1, což znamená, že maximální hodnota grafu je 1 a minimální hodnota je -1. U tangens a kotangens amplituda není, protože graf nemá omezení (jde až do nekonečna a mínus nekonečna)."],
+        
+        "odkazy": [["sinus", "cosinus", "tangens", "kotangens"], {
+          "sinus": {
+          "popis": ["popis", "Graf sinusové funkce vypadá jako vlna, která se pohybuje mezi hodnotami -1 a 1."],
+          "vlastnosti": ["cap2"],
+          "Perioda": ["cap3", "2π (graf se začne opakovat po 2π)"],
+          "Amplituda": ["cap3", "1 (maximum je 1 a minimum je -1)"],
+          "Průsečíky s osou x": ["cap3", "nπ (v bodech 0, π, 2π, kde n je celé číslo)"],
+          "Maximální hodnota": ["cap3", "1 (v bodě π/2, 5π/2, ...)"],
+          "Minimální hodnota": ["cap3", "-1 (v bodě 3π/2, 7π/2, ...)"]
+          
         },
         "cosinus": {
-          "popis": "Graf funkce cosinus je také vlnovitý, ale začíná na hodnotě 1 a pak klesá k -1.",
-          "vlastnosti": {
-            "Perioda": "2π (graf se začne opakovat po 2π)",
-            "Amplituda": "1 (maximum je 1 a minimum je -1)",
-            "Průsečíky s osou x": "π/2 + nπ (v bodech π/2, 3π/2, 5π/2...)",
-            "Maximální hodnota": "1 (v bodech 0, 2π, ...)",
-            "Minimální hodnota": "-1 (v bodech π, 3π, ...)"
-          }
+          "popis": ["popis", "Graf funkce cosinus je také vlnovitý, ale začíná na hodnotě 1 a pak klesá k -1."],
+          "vlastnosti": ["cap2"],
+          "Perioda": ["cap3", "2π (graf se začne opakovat po 2π)"],
+          "Amplituda": ["cap3", "1 (maximum je 1 a minimum je -1)"],
+          "Průsečíky s osou x": ["cap3", "π/2 + nπ (v bodech π/2, 3π/2, 5π/2...)"],
+          "Maximální hodnota": ["cap3", "1 (v bodech 0, 2π, ...)"],
+          "Minimální hodnota": ["cap3", "-1 (v bodech π, 3π, ...)"]
         },
         "tangens": {
-          "popis": "Graf funkce tangens roste velmi rychle do nekonečna a klesá do mínus nekonečna. Má také místa, kde není definován (asymptoty).",
-          "vlastnosti": {
-            "Perioda": "π (graf se začne opakovat po π)",
-            "Asymptoty": "v bodech π/2 + nπ (tam, kde graf nemá hodnotu, například π/2, 3π/2, ...)",
-            "Průsečíky s osou x": "v bodech nπ (0, π, 2π, ...)"
-          }
+          "popis": ["popis", "Graf funkce tangens roste velmi rychle do nekonečna a klesá do mínus nekonečna. Má také místa, kde není definován (asymptoty)."],
+          "vlastnosti": ["cap2"],
+          "Perioda": ["cap3", "π (graf se začne opakovat po π)"],
+          "Asymptoty": ["cap3", "v bodech π/2 + nπ (tam, kde graf nemá hodnotu, například π/2, 3π/2, ...)"],
+          "Průsečíky s osou x": ["cap3", "v bodech nπ (0, π, 2π, ...)"]
         },
         "kotangens": {
-          "popis": "Graf funkce kotangens je podobný grafu tangens, ale opačný – klesá do mínus nekonečna a roste do nekonečna. Má také asymptoty.",
-          "vlastnosti": {
-            "Perioda": "π (graf se začne opakovat po π)",
-            "Asymptoty": "v bodech nπ (0, π, 2π, ...)",
-            "Průsečíky s osou x": "v bodech π/2 + nπ (π/2, 3π/2, ...)"
-          }
+          "popis": ["popis", "Graf funkce kotangens je podobný grafu tangens, ale opačný – klesá do mínus nekonečna a roste do nekonečna. Má také asymptoty."],
+          "vlastnosti": ["cap2"],
+          "Perioda": ["cap3", "π (graf se začne opakovat po π)"],
+          "Asymptoty": ["cap3", "v bodech nπ (0, π, 2π, ...)"],
+          "Průsečíky s osou x": ["cap3", "v bodech π/2 + nπ (π/2, 3π/2, ...)"]
         }
+  
+        }]
+        
       },
       "Příklad k vyzkoušení": {
         "popis": "Ukázka toho, jak vypadají grafy funkcí.",
@@ -95,5 +92,5 @@
         ]
       }
     }
-  }
+  } 
   

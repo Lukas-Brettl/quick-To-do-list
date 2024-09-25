@@ -4,7 +4,6 @@
       "Teorie": {
         "popis": "Goniometrické rovnice jsou rovnice, které obsahují goniometrické funkce (sinus, cosinus, tangens, atd.). Jejich řešení zahrnuje nalezení úhlů, které splňují danou rovnici. Tento typ rovnic může mít více řešení v rámci jednoho intervalu, a často je třeba hledat všechna řešení v daném rozsahu.",
         "základní_vlastnosti": {
-          "popis": "Při řešení goniometrických rovnic je důležité mít na paměti následující vlastnosti:",
           "periodičnost": {
             "popis": "Goniometrické funkce jsou periodické, což znamená, že jejich hodnoty se opakují po určitém intervalu. Například, perioda funkce sinus a cosinus je 2π, a perioda funkce tangens a kotangens je π."
           },

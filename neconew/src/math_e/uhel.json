@@ -2,24 +2,24 @@
   "téma": "Úhly",
   "obsah": {
     "Teorie": {
-      "popis": "Úhel je část roviny vymezená dvěma polopřímkami se společným počátkem. Značí se písmenem nebo řeckým symbolem (např. α, β). Měří se ve stupních, minutách, sekundách nebo v radiánech. Plný úhel je 360° nebo 2π radiánů.",
-      "měření_úhlů": {
-        "stupně": "1° (stupeň) = 60' (minut), 1' (minuta) = 60'' (sekund)",
-        "radiány": "1 radián ≈ 57,3°, π radiánů = 180°"
-      },
-      "převody": {
-        "stupně_na_radiány": "radiány = (stupně * π) / 180",
-        "radiány_na_stupně": "stupně = (radiány * 180) / π"
-      }
+      "popis": ["popis", "Úhel je část roviny vymezená dvěma polopřímkami se společným počátkem. Značí se písmenem nebo řeckým symbolem (např. α, β). Měří se ve stupních, minutách, sekundách nebo v radiánech. Plný úhel je 360° nebo 2π radiánů."],
+      "měření_úhlů": ["cap2"],
+      "stupně": ["cap3", "1° (stupeň) = 60' (minut), 1' (minuta) = 60'' (sekund)"],
+      "radiány": ["cap3", "1 radián ≈ 57,3°, π radiánů = 180°"],
+      "převody": ["cap2"],
+      "stupně_na_radiány": ["cap3", "radiány = (stupně * π) / 180"],
+      "radiány_na_stupně": ["cap3", "stupně = (radiány * 180) / π"]
+      
     },
-    "Příklad k vyzkoušení": {
-      "popis": "Ukázka měření a převodů úhlů.",
-      "příklad": "Převeď úhel 120° na radiány.",
-      "řešení": "120° * π / 180 = 2π/3 radiánu ≈ 2,094 radiánu"
+    "Příklad k ukázce": {
+      "příklad": ["zadani", "Převeď úhel 120° na radiány."],
+      "vzorec": ["vzorec", "radiány = (stupně * π) / 180"],
+      "řešení": ["cap3", "120° * π / 180 = 2π/3 radiánu"]
     },
     "Příklad k vyřešení": {
       "zadání": "Převeď úhel 2,5 radiánu na stupně.",
-      "nápověda": "Použij vzorec pro převod radiánů na stupně.",
+      "nápověda": "Použij vzorec pro převod radiánů na stupně. stupně = (radiány * 180) / π",
+      "input":["input"],
       "očekávané_řešení": "2,5 * 180 / π ≈ 143,24°"
     },
     "Chyták": {
