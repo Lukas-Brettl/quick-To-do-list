@@ -77,14 +77,14 @@ export default function Teorie({ data, next }) {
     return result 
     
   }
-  
+  console.log("teorie")
   return (
     <div className="p-12">
       <h1 className="text-2xl mb-3">{data["téma"]}</h1>
 
       {splitData ? splitData:write()}
-      <button onClick={()=>{next(1)}}>Splněno</button>
-      <button onClick={()=>{next(1)}}>Další</button>
+      <button onClick={()=>{next(2)}}>Splněno</button>
+      <button onClick={()=>{next(2)}}>Další</button>
     </div>
   );
 }

@@ -32,14 +32,14 @@ export default function ShowExample({ data, next }) {
     return result 
     
   }
-  
+  console.log("showexample")
   return (
     <div className="p-12">
       <h1 className="text-2xl mb-3">{data["téma"]}</h1>
 
       {write()}
-      <button onClick={()=>{next(2)}}>Splněno</button>
-      <button onClick={()=>{next(2)}}>Další</button>
+      <button onClick={()=>{next(3)}}>Splněno</button>
+      <button onClick={()=>{next(3)}}>Další</button>
     </div>
   );
 }
